@@ -6,6 +6,10 @@ import TuitsController from "./controllers/tuits/tuits-controller.js";
 import mongoose from "mongoose";
 mongoose.connect('mongodb://localhost:27017/tuiter');
 
+// const CONNECTION_STRING = "mongodb+srv://abhisha:Abhish%4006@cluster0.xqznmb6.mongodb.net/?retryWrites=true&w=majority"
+//     || 'mongodb://localhost:27017/tuiter'
+// mongoose.connect(CONNECTION_STRING);
+//
 
 const app = express()
 app.use(express.json());
